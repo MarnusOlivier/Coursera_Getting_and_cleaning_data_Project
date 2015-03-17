@@ -42,7 +42,7 @@ The objective was to create one R script called run_analysis.R that does the fol
 ### Script approach
 The script was divided into 6 steps which were used to reach the end goal. This is outlined using various comments in run_analysis.R.
 
-##### Step1
+##### STEP 1
 Read all the raw data that will be used in the remainder of the script
 to create the tidy data set. All the above files were read using read.table()
 
