@@ -30,7 +30,6 @@
 # Read all the raw data that will be used in the remainder of the script
 # to create the tidy data set
 # ============================================================================================
-setwd("C:\\Users\\212410226\\Python & R\\R_workingDirectory\\2. Getting and Cleaning Data\\CourseProject")
 features             <- read.table(".\\UCI HAR Dataset\\features.txt", stringsAsFactors = FALSE)
 activity_labels      <- read.table(".\\UCI HAR Dataset\\activity_labels.txt")
 X_train              <- read.table(".\\UCI HAR Dataset\\train\\X_train.txt")
